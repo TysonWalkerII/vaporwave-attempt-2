@@ -2,14 +2,27 @@ import logo from "./logo.svg";
 import "./App.css";
 import Form from "./Components/Form";
 import Pomodoro from "./Pomodoro";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SlidingText from "./Components/SlidingText";
 import "./scanlines.scss";
 import Scanlines from "./Components/Scanlines";
-function App() {
+import Typewriter from 'typewriter-effect';
+import Rain from "./Components/Rain"
+import Vids from "./Components/Vids";
+import Card from "./Components/Card";
+import ChatBox from "./Components/ChatBox";
+            function App() {
   const [show,toggleShow] = useState(true);
-  const[showRain,toggleShowRain] = useState(true);
+  const [showRain, toggleShowRain] = useState(true)
   const[showVideos,toggleShowVideos] = useState(true);
+ 
+  
+
+
+
+
+
+  
   return ( <div className="App crt  " >
        <header className="App-header"></header>
       <div class="window">
@@ -52,13 +65,13 @@ function App() {
         <img class="ico" src="doom-ico1.gif"></img>
         <p class="ico-text">DOOM</p>
       </div>
-      <div class="ico-div" onClick={() => toggleShowRain (!showRain)}>
-        <img class="ico" src="doom-ico1.gif"  ></img>
+      <div class="ico-div" onClick = {() => toggleShowRain (!showRain)}>
+        <img class="ico" src="https://media.tenor.com/z4Q0LwGOU30AAAAi/azeroy-yabujin.gif"  ></img>
         <p class="ico-text">Calming Rain</p>
       </div>
-      <div class="ico-div"  onClick={() => toggleShow (!show)}>
+      <div id="dragthething" class="ico-div"  onClick={() => toggleShow (!show)}>
         
-        <img class="ico" src="doom-ico1.gif"></img>
+        <img  class="ico" src="doom-ico1.gif"></img>
         <p class="ico-text">Pomodoro Timer</p>
       </div>
       <div class="ico-div">
@@ -69,6 +82,8 @@ function App() {
   
 
       {!show && <Pomodoro showProp={show} toggleShowProp={toggleShow} />}
+      {/* <ChatBox/> */}
+      {<Card/>}
 
       <div id="show" class="randomtext" ></div>
 
@@ -77,46 +92,92 @@ function App() {
       <div>
 
       {!showVideos && 
-      <div class="window mywidthThingForTheWindows" >
-  <div class="title-bar">
-    <div class="title-bar-text">Background video</div>
-    <div class="title-bar-controls">
-      <button aria-label="Minimize"></button>
-      <button aria-label="Maximize"></button>
-      <button aria-label="Close" onClick={() => toggleShowVideos (!showVideos)}></button>
-    </div>
-  </div>
-  
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/iP72ooweKQw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="status-bar ">
-          <p class="status-bar-field">Press F1 for help</p>
-          <p class="status-bar-field">Slide 1</p>
-          <p class="status-bar-field">CPU Usage: 14%</p>
-        </div>
-</div>
+      <Vids showProp={showVideos} toggleShowProp={toggleShowVideos}/>
 
       }
-{!showRain && 
-  <div class="window mywidthThingForTheWindows2" >
-  <div class="title-bar">
-    <div class="title-bar-text">Calming Rain</div>
-    <div class="title-bar-controls">
-      <button aria-label="Minimize"></button>
-      <button aria-label="Maximize"></button>
-      <button aria-label="Close"  onClick={() => toggleShowRain (!showRain)}></button>
-    </div>
-  </div>
-  
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/42M3esYyHdw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="status-bar ">
-          <p class="status-bar-field">Press F1 for help</p>
-          <p class="status-bar-field">Slide 1</p>
-          <p class="status-bar-field">CPU Usage: 14%</p>
-        </div>
-</div>
-}
+
+{showRain &&
+  <Rain showProp={showRain} toggleShowProp={toggleShowRain}/>}
+
+
 
 </div>
+
+<div class="window clearfix" >
+  <div class="title-bar">
+    <div class="title-bar-text">SWAG</div>
+  </div>
+  <div class="window-body">
+ 
+<div className = "dialog-box-thang"> 
+
+<div className = "pfp"></div>
+
+<img   className = "po"src='/sadboi.gif'></img> 
+
+
+
+
+
+
+<Typewriter 
+  onInit={(typewriter) => {
+    
+  /*typewriter.typeString('SWAG ') */
+    
+     /* .callFunction(() => {
+        console.log('String typed out!');
+      }) */
+      typewriter.typeString('')
+      
+      .changeDeleteSpeed(-90000)
+    
+    .changeDelay(0.1)
+      .pauseFor(1)
+      
+      
+      
+      typewriter.typeString('sup... my name is swag')
+      .pauseFor(400)
+      .changeDeleteSpeed(1)
+     .deleteAll(0.1)
+     
+     
+      typewriter.typeString('sorry that was cringe')
+      .changeDeleteSpeed(-90000)      
+      .callFunction(() => {
+        console.log('All strings were deleted');
+      })
+      .start();
+    
+      
+      
+  }}
+  
+/>
+
+</div>
+
+
+  
+
+  </div>
+  
+  <div class="status-bar">
+    {/* <button class = "status-bar-field">
+      thing
+    </button> */}
+    <p class="status-bar-field">Press F1 for help</p> 
+     <p class="status-bar-field">Slide 1</p>
+    <p class="status-bar-field">CPU Usage: 14%</p>
+  </div>
+</div>
+
+
+<button>FIGHT</button>
+<button>TALK</button>
+<button>RUN</button>
+
       </div>
     
    

@@ -1,0 +1,18 @@
+A que of music that everyone on the website can listen to
+Anyone can add whatever they want
+
+Precautionary measures:
+-limit people to one request( they won’t be able to add another song until a certain amount of requests are made from others depending on how many people are on it)
+-people can toggle a skip bool and if a certain amount of people skip it, then the song is skipped and everyones toggle is put back to false
+And a chat honestly I’m not sure why I never added this sooner it would be cool for people to be able to chat and stuff
+Precautionary measures: maybe people can block others so that they don’t notice messages from people they don’t wanna see
+
+Everyone on the website listens to the same playlist
+Anyone can add a song to it
+Precautionary measures:
+- can't do consecutive submissions
+- people can vote the song off (with a toggle)
+
+A chat that everyone can go on
+Precautionary measures:
+- you can block people
