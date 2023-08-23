@@ -83,7 +83,7 @@ import ChatBox from "./Components/ChatBox";
 
       {!show && <Pomodoro showProp={show} toggleShowProp={toggleShow} />}
       {/* <ChatBox/> */}
-      {<Card/>}
+      {/* {<Card/>} */}
 
       <div id="show" class="randomtext" ></div>
 
