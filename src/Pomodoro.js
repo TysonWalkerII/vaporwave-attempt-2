@@ -1,70 +1,75 @@
 //import { Howl } from "howler";
 import React, {useEffect, useState } from "react";
-//import { useAudioPlayer } from "react-use-audio-player"
-//import { AudioPlayerProvider } from "react-use-audio-player"
-//import {AudioPlayer} from "./sound/audio.js"
-import App from "./App"
-
-const AudioPlayer = ({ file }) => {
-  const { togglePlayPause, ready, loading, playing } = 
-//   useAudioPlayer
-  ({
-      src: file,
-      format: "mp3",
-      autoplay: false,
-      onend: () => console.log("sound has ended!")
-  })
-
-  if (!ready && !loading) return <div>No audio to play</div>
-  if (loading) return <div>Loading audio</div>
-
-  return (
-      <div>
-          <button onClick={togglePlayPause}>{playing ? "Pause" : "Play"}</button>
-      </div>
-  )
-}
 
 
 
-let song = new Audio('./sound/tackleHit.wav');
+// const AudioPlayer = ({ file }) => {
+//   const { togglePlayPause, ready, loading, playing } = 
+// //   useAudioPlayer
+//   ({
+//       src: file,
+//       format: "mp3",
+//       autoplay: false,
+//       onend: () => console.log("sound has ended!")
+//   })
 
-function sound(){
-  console.log("sound???")
-  //audio.timeUp.play()
+//   if (!ready && !loading) return <div>No audio to play</div>
+//   if (loading) return <div>Loading audio</div>
+
+//   return (
+//       <div>
+//           <button onClick={togglePlayPause}>{playing ? "Pause" : "Play"}</button>
+//       </div>
+//   )
+// }
+
+
+
+// let song = new Audio('./sound/tackleHit.wav');
+
+// function sound(){
+//   console.log("sound???")
+//   //audio.timeUp.play()
   
-  song.play();
-  //song.pause();
-}
+//   song.play();
+//   //song.pause();
+// }
 
 
 export default function Pomodoro(prop) {
-  const [minutes, setMinutes] = useState(60);
-  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(5);
   const [displayMessage, setDisplayMessage] = useState(false);
 
-
+  function playSound() {
+    var mp3 = '<source src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" type="audio/mpeg">';
+    document.getElementById("sound").innerHTML =
+    '<audio autoplay="autoplay">' + mp3 + "</audio>";
+    }
 
   useEffect(()=>{
     let interval = setInterval(() => {
       clearInterval(interval);
       if(seconds === 0){
+        //no more seconds?
         if( minutes !== 0){
+          //decriment minute and reset seconds if the seconds run out and the minutes arent empty
           setSeconds(59);
-          setMinutes(minutes - 1)
+           setMinutes(minutes - 1)
+          //  setMinutes(10)
         }else{
-          let message = displayMessage ? 24: 4;
-          let seconds = 59;
+             let message = displayMessage ? 30: 15;
+          let seconds = 2;
           setSeconds(seconds)
-          setMinutes(minutes)
+          //  setMinutes(1)
+          //let minutes = 0;
+           setMinutes(message)
           setDisplayMessage(!displayMessage);
-
+          playSound();
         }
       }else{
+        //count down
         setSeconds(seconds - 1);
-        //audio.timeUp.play()
-        
-
       }
     }, 1000)
   }, [seconds])

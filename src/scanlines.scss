@@ -135,30 +135,30 @@ keyframes :
 
 /* PRESENTATION STUFF */
 
-a {
-    display: block;
-    padding: 1em;
-    margin: 0 auto;
-    width: 80%;
-    color: rgba(#fff, .5);
-    text-transform: uppercase;
-    text-decoration: none;
-    background: rgba(#000, .8);
-    border: 1px solid rgba(#fff, .5);
+// a {
+//     display: block;
+//     padding: 1em;
+//     margin: 0 auto;
+//     width: 80%;
+//     color: rgba(#fff, .5);
+//     text-transform: uppercase;
+//     text-decoration: none;
+//     background: rgba(#000, .8);
+//     border: 1px solid rgba(#fff, .5);
 
-    &#togglescanlines {
-        position: absolute;
-        width: 182px;
-        top: 300px;
-        right: 58px;
-        border-width: 10px;
-        background: rgba(#000, .4);
-    }
+//     &#togglescanlines {
+//         position: absolute;
+//         width: 182px;
+//         top: 300px;
+//         right: 58px;
+//         border-width: 10px;
+//         background: rgba(#000, .4);
+//     }
     
-    &:hover {
-        color: #fff;
-    }
-}
+//     &:hover {
+//         color: #fff;
+//     }
+// }
 
 nav {
     float: right;
@@ -227,5 +227,5 @@ body {
     position: absolute;
     width:fit-content;
   
-    top:100px;
+    // top:10px;
 }

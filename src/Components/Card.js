@@ -1,5 +1,7 @@
+import "../App.css";
 function Card () {
     return (<div class="cardComponent">
+        <a href="/">Home</a>
         <div class="row-of-lines">
         <div class="headerorsomething">
             
@@ -21,7 +23,12 @@ function Card () {
             {/* <a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank"> */}
   <div class="card">
     <div class="wrapper">
+      <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqyRKnDl38H9r6reEVirAd314Ik7oVdLP2Bg&usqp=CAU" class="cover-image2" />
       <img src="https://art.ngfiles.com/images/3377000/3377863_grubbb_red-bomb-rush-cyberfunk.gif?f1691182258" class="cover-image" />
+      </div>
+     
+
     </div>
     <img src="https://assets.altarofgaming.com/wp-content/uploads/2023/06/bomb-rush-cyberfunk-logo-altar-of-gaming-300x150.png" class="title" />
     <img src="https://64.media.tumblr.com/b610e54dc00d715468ef7eb775651678/5727fb7d33e21856-3b/s1280x1920/75a452e798731730c2846bf2cce50c7f44589bef.png" class="character" />
@@ -70,6 +77,14 @@ function Card () {
     </div>
     <img src="https://pizzatower.io/wp-content/uploads/2023/03/Pizza_Tower_Logo.png" class="title" />
     <img src="https://64.media.tumblr.com/895a918373adcb324eed736156585391/062c866c7d8b0e67-e4/s400x600/c4b2730cc981650494b7f2409a534afc411a4057.gif" class="character " />
+  </div>
+
+  <div class="card">
+    <div class="wrapper">
+      <img src="https://64.media.tumblr.com/38ce5cdfe706fe2f16343f353fc1abd0/ad50c5fe56dfab08-00/s640x960/f39042ec3d97994f4418d298e2147611150b9fff.gifv " class="cover-image" />
+    </div>
+    <img src="https://cdn.dashfight.com/7285b41262c8ef1bdf70805bae56bc08767b4633.png" class="title" />
+    <img src="https://images.contentstack.io/v3/assets/blt3b1631a60bb9c200/blt357bb0acf248356c/649608d1e64f41305742d247/projectl-masthead-fg.png" class="character " />
   </div>
         </div>
 

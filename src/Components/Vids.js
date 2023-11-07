@@ -1,12 +1,18 @@
 import { useEffect, useState } from "react";
 import "../App.css";
 function Vids(prop){
-    const[showVideos,toggleShowVideos] = useState(true);
+    // const[showVideos,toggleShowVideos] = useState(true);
+    
     useEffect(() => {
         // Update the document title using the browser API
         dragElement(document.getElementById("move"));
+        // document.getElementById("ytplaylist").src = prop.hereWeGo
+
+        // document.getElementById("vidtest").innerHTML = <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=MyparJQdLMJEML2L&amp;list=PLoF3Se6f4C7rVqaUwEzVIQFM9MmAxcfd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       });
-      
+      // var shouldWork = "https://www.youtube.com/embed/videoseries?si=MyparJQdLMJEML2L&amp;list=PLoF3Se6f4C7rVqaUwEzVIQFM9MmAxcfd_";
+      // document.getElementById("ytplaylist").src = shouldWork
+      // console.log(`here this should help ${document.getElementById("ytplaylist").src}`)
       function dragElement(elmnt) {
        
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -48,9 +54,15 @@ function Vids(prop){
           document.onmousemove = null;
         }
       }
+      
+      
     return (
         <div>
+          {/* <div id="vidtest"></div> */}
+          <img class= "vid-tv" src="https://64.media.tumblr.com/2b20078408762cb9d1330a8f3c451c90/tumblr_nyavfaJ9HP1spo3yuo1_r4_500.gifv"></img>
            <div  class="window mywidthThingForTheWindows"  id="move">
+
+            
   <div class="title-bar">
     <div class="title-bar-text">Background video</div>
     <div class="title-bar-controls">
@@ -60,7 +72,9 @@ function Vids(prop){
     </div>
   </div>
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7mPdAX8IiS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   <div class="status-bar ">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eeSH43xcTr8?si=agwcwP9-HNwpO2PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   <div class="status-bar ">
+    
+
           <p class="status-bar-field">Press F1 for help</p>
           <p class="status-bar-field">Slide 1</p>
           <p class="status-bar-field">CPU Usage: 14%</p>

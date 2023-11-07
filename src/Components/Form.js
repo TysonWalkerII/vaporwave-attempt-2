@@ -56,7 +56,7 @@ function Form() {
     document.getElementById("show").innerHTML = text;
   };
 
-  return <button onClick={onClick}>Login</button>;
+  return <button onClick={onClick}>Click for ascii anime gf</button>;
 }
 
 export default Form;

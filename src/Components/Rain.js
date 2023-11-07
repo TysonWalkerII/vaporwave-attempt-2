@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../App.css";
 
 function Rain(prop){
-    const[showRain,toggleShowRain] = useState(true);
+    // const[showRain,toggleShowRain] = useState(false);
     
     useEffect(() => {
         // Update the document title using the browser API
@@ -51,11 +51,30 @@ function Rain(prop){
       }
     return (
         <div id="move">
-            
-          
+            <img class="rain-tv" src="https://64.media.tumblr.com/439b83940ef895ec6a9db4d3c14e933d/tumblr_ny6w33ZKQW1spo3yuo1_r1_500.gifv"></img>
+            <img class="rain-tv3 " src="https://64.media.tumblr.com/356c0ff36ae856dc6b3f47e7cddcbc02/tumblr_oweo613HbU1spo3yuo1_500.gifv"></img>
+
+            <div class="window cornerThing"  >
+
+            <div class="title-bar">
+               <div class="title-bar-text">🥀🥀🥀🥀</div>
+               <div class="title-bar-controls">
+                 <button aria-label="Minimize"></button>
+                 <button aria-label="Maximize"></button>
+                 <button aria-label="Close"  onClick={() => prop.toggleShowProp (!prop.showProp)}></button>
+               </div>
+             </div>
+             <img  class="corneridk" src="https://web.archive.org/web/20091027034530/http://geocities.com/bankanit/Climbing-Rose-Border.gif"></img>
+
+            {/* <div class="status-bar ">
+                     <p class="status-bar-field">Press F1 for help</p>
+                     <p class="status-bar-field">Slide 1</p>
+                     <p class="status-bar-field">CPU Usage: 14%</p>
+                   </div> */}
+            </div>
              <div class="window mywidthThingForTheWindows2"  >
              <div class="title-bar">
-               <div class="title-bar-text">Calming Rain</div>
+               <div class="title-bar-text">Calming Rain </div>
                <div class="title-bar-controls">
                  <button aria-label="Minimize"></button>
                  <button aria-label="Maximize"></button>
@@ -69,14 +88,7 @@ function Rain(prop){
                      <p class="status-bar-field">Slide 1</p>
                      <p class="status-bar-field">CPU Usage: 14%</p>
                    </div>
-           
-             
-            
-         </div>
-         
-            
-            
-           
+         </div>  
         </div>
       );
 }
