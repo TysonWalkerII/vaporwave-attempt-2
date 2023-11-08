@@ -87,11 +87,67 @@ const config = {
     },
     {
       metaData: {
-        artist: "#lsdradio",
-        title: "#LSDRADIO W🌎RLD PREM🎨ERE #😢💛🌈🍭 (FULL EP).mp3",
+        artist: "chozhen",
+        title: "2 ✌🏿detrimental 🤕🪞👎🏿 #_(_‚‹」∠)_.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/FgobKdkXbch2tKqnE6jgnu3PGO76XMSb",
+      url: "https://audio.jukehost.co.uk/CGTvPnHTjVFtap8SYMNyO9uuUbayLXsW",
+    },
+    {
+      metaData: {
+        artist: "methhead",
+        title: "2 dam drained o..o 😕😌.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/abOSCgdtJ2yCmAYJJfS0Wa8MIENPXsVW",
+    },
+    {
+      metaData: {
+        artist: "sxcius",
+        title: "🗝️.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/WAlk5X5npV1nxtih9WhcdRZNqyVfdhuh",
+    },
+    {
+      metaData: {
+        artist: "sxcius",
+        title: "HoLmWhIYIZk3.128.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/fyb5YYLuXelE9Cyy83sA6rXhKXcAsFCo",
+    },
+    {
+      metaData: {
+        artist: "sxcius",
+        title: "sliturwristwurnail",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/4ihNH01w34tNkrbO7UMH36yg9dPPBlBe",
+    },
+    {
+      metaData: {
+        artist: "Gomi #youcandoit",
+        title: "summertimemixHARLEXLB.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/kZIzFP0n5h0vqAyvsmzZXGRcXuhpJKfJ",
+    },
+    {
+      metaData: {
+        artist: "star",
+        title: "🐱_👤🧙_♂️ sorryyyyy _(( 👽 !!! 👾.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/qQb79fEbDRrUZ3VhI69gz6yIBsdJkJw4",
+    },
+    {
+      metaData: {
+        artist: "tezzo",
+        title: "frozen cold w morgue🥶",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/kFpogmpuEthiADvrcHHWcUHaOsxCMrHL",
     },
     
   ]

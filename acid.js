@@ -73,6 +73,46 @@ const config = {
         // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
         url: "https://audio.jukehost.co.uk/CGTvPnHTjVFtap8SYMNyO9uuUbayLXsW",
       },
+      {
+        metaData: {
+          artist: "methhead",
+          title: "2 dam drained o..o 😕😌.mp3",
+        },
+        // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+        url: "https://audio.jukehost.co.uk/abOSCgdtJ2yCmAYJJfS0Wa8MIENPXsVW",
+      },
+      {
+        metaData: {
+          artist: "sxcius",
+          title: "🗝️.mp3",
+        },
+        // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+        url: "https://audio.jukehost.co.uk/WAlk5X5npV1nxtih9WhcdRZNqyVfdhuh",
+      },
+      {
+        metaData: {
+          artist: "sxcius",
+          title: "HoLmWhIYIZk3.128.mp3",
+        },
+        // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+        url: "https://audio.jukehost.co.uk/fyb5YYLuXelE9Cyy83sA6rXhKXcAsFCo",
+      },
+      {
+        metaData: {
+          artist: "sxcius",
+          title: "sliturwristwurnail",
+        },
+        // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+        url: "https://audio.jukehost.co.uk/4ihNH01w34tNkrbO7UMH36yg9dPPBlBe",
+      },
+      {
+        metaData: {
+          artist: "sxcius",
+          title: "sliturwristwurnail",
+        },
+        // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+        url: "https://audio.jukehost.co.uk/4ihNH01w34tNkrbO7UMH36yg9dPPBlBe",
+      },
       
     ]
    
