@@ -298,6 +298,14 @@ const config = {
         // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
         url: "https://audio.jukehost.co.uk/bd6xSVIkRtL6eyBukCncLvguQvS38udq",
       },
+      {
+        metaData: {
+          artist: "(@worknondyingg) pryncealuc4rd",
+          title: "relicnova🩸 ft y3no((44TANA MIX)).mp3",
+        },
+        // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+        url: "https://audio.jukehost.co.uk/Yz6qTFKrccJj0yfC7tCkkh3xCmYf9npx",
+      },
 
       
       

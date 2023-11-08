@@ -122,6 +122,16 @@ button, a{
   }
 }
 
+@keyframes otheranim {
+  0% {
+      transform: translate(0, 0%);
+      transform: rotate3d(0, 1, 0, 0deg)
+  }
+  100% {
+      transform: translate(-100%, 0);
+      transform: rotate3d(300, 400, 800, 600deg)
+  }
+}
 /*Stolen from http://aleclownes.com/2017/02/01/crt-display.html*/
 
 /*This adds a "crt scanlines" effect to the screen*/
@@ -558,12 +568,32 @@ a {
 #show{
   position: absolute;
   font-size: 5px;
-  width:400px;
+   width:400px;
+  /* height:400px;  */
   text-shadow: 2px 2px 5px black;
   /* text-shadow: 2px 2px  black; */
-
+  background-image: url("https://media.tenor.com/1qwBI1W0z-MAAAAC/they-dont-know-meme.gif");
+left:400px;
+font-size: large;
+animation: marquee  50s linear infinite;
+z-index: 100;
 }
+#show2{
+  
 
+  background-image: url("https://preview.redd.it/no-bitches-v0-fc641jeg4ej81.jpg?auto=webp&s=0786c0c2ced42979092389ce1d37dae4ec2a166c");
+  animation: marquee  50s linear infinite;
+}
+#show3{
+
+  background-image: url("https://i.pinimg.com/564x/22/04/72/2204725ec0bd13c61131bc099467b04c.jpg");
+  animation: otheranim  5s linear infinite;
+}
+.memes{
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 
 
 :root {
@@ -720,3 +750,4 @@ a {
   height:200px;
   /* width:200px; */
 }
+
