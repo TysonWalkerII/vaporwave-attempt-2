@@ -121,7 +121,14 @@ button, a{
       transform: translate(-100%, 0);
   }
 }
-
+@keyframes otheranim2 {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(90%, 100);
+  }
+}
 @keyframes otheranim {
   0% {
       transform: translate(0, 0%);
@@ -579,10 +586,8 @@ animation: marquee  50s linear infinite;
 z-index: 100;
 }
 #show2{
-  
-
   background-image: url("https://preview.redd.it/no-bitches-v0-fc641jeg4ej81.jpg?auto=webp&s=0786c0c2ced42979092389ce1d37dae4ec2a166c");
-  animation: marquee  50s linear infinite;
+  animation: otheranim2  50s linear infinite;
 }
 #show3{
 

@@ -441,9 +441,9 @@ const config = {
       <ChatBox/>
       <div class="memes">
 
-      
-      <div id="show" class="randomtext" />
       <div id="show2" />
+      <div id="show" class="randomtext" />
+     
       <div id="show3"></div>
       </div>
       <div  ref={setDivRef} />
