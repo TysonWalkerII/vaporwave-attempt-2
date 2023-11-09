@@ -126,7 +126,7 @@ button, a{
       transform: translate(0, 0);
   }
   100% {
-      transform: translate(90%, 100);
+      transform: translate(-90%, 0);
   }
 }
 @keyframes otheranim {
