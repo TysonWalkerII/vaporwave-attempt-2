@@ -586,17 +586,22 @@ left:400px;
 font-size: large;
 animation: marquee  50s linear infinite;
 z-index: 100;
+pointer-events: none;
 }
 #show2{
   background-image: url("https://preview.redd.it/no-bitches-v0-fc641jeg4ej81.jpg?auto=webp&s=0786c0c2ced42979092389ce1d37dae4ec2a166c");
   animation: otheranim2  50s linear infinite;
   height: 500px;
   width:600em;
+  pointer-events: none;
 }
 #show3{
-
+  position:relative;
+left:-210em;
   background-image: url("https://i.pinimg.com/564x/22/04/72/2204725ec0bd13c61131bc099467b04c.jpg");
   animation: otheranim  5s linear infinite;
+  height:1000px;
+  pointer-events: none;
 }
 @keyframes face1 {
   0%   { transform: translate3d(0%, 0px, 0px)}
@@ -793,5 +798,13 @@ z-index: 100;
   background-color: red;
 }
 .hilarious{
+  position: absolute;
+right:300px;
+opacity: 0;
+}
 
+.mememe{
+  position: absolute;
+  top:0;
+  pointer-events: none;
 }
