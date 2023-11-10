@@ -84,6 +84,7 @@ button, a{
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
+  pointer-events: none
 }
 .marquee {
   position: absolute;
@@ -93,7 +94,7 @@ button, a{
   overflow: hidden;
   min-width: 100%;
   height: 13.4%;
-  
+  pointer-events: none
 }
 .marquee span {
   display: inline-block;
@@ -108,10 +109,11 @@ button, a{
   font-size: 85px;
   animation: marquee 50s linear infinite;
   z-index: 1;
-  
+  pointer-events: none
 }
 .marquee2 span {
   animation-delay: 0s;
+  pointer-events: none
 }
 @keyframes marquee {
   0% {
@@ -126,7 +128,7 @@ button, a{
       transform: translate(0, 0);
   }
   100% {
-      transform: translate(-90%, 0);
+      transform: translate(-70%, 0);
   }
 }
 @keyframes otheranim {
@@ -588,6 +590,8 @@ z-index: 100;
 #show2{
   background-image: url("https://preview.redd.it/no-bitches-v0-fc641jeg4ej81.jpg?auto=webp&s=0786c0c2ced42979092389ce1d37dae4ec2a166c");
   animation: otheranim2  50s linear infinite;
+  height: 500px;
+  width:600em;
 }
 #show3{
 
