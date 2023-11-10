@@ -16,6 +16,7 @@ import { Link, Router, Routes, Route } from "react-router-dom";
 import { type } from "@testing-library/user-event/dist/type";
 import internetArchiveSkin from "./45.wsz";
 import ps2skin from "./PS2.wsz"
+import HaloSkin from "./Halo-Amp.wsz"
 
 // const { useState, useEffect } = React;
 const { useState, useEffect } = React;
@@ -27,137 +28,181 @@ const config = {
     {
       metaData: {
         artist: "badfriend",
-        title: "2022 25 - Remastered ALT.wav",
+        title: "omw.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/H8PKGx4kMPxq0ciuksiPJWudoMKYFN3j",
+      url: "https://audio.jukehost.co.uk/iENctqla4zffelnHxtpsKSwY3EYDJY2X",
     },
     {
       metaData: {
-        artist: "Lafew",
-        title: "bekko_mast3r (dj spongeb0ng hemppants).mp3",
+        artist: "Paul Mcartney & Wings",
+        title: "Arrow Through Me [Continue_再生を押す HACK].mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/EH8IEJMoO6xGAQM5meQUsVVdUy5kCdmK",
+      url: "https://audio.jukehost.co.uk/QV3j4emltPmzsXB2EGfDkaozQea29y0m",
     },
     {
       metaData: {
-        artist: "xra",
-        title: "CHANGE.mp3",
+        artist: "ニヤケ",
+        title: "2-4.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/hd38QcPZrsVhi1yPS8Q4AuHJbxtpdZT0",
+      url: "https://audio.jukehost.co.uk/pXRov8gS85l8f32TF9ZAiU4TWVNQyhLc",
     },
     {
       metaData: {
-        artist: "OSYRIS ISRAEL ##CORAZONN",
-        title: "CORAZONNN W MKYFM.mp3",
+        artist: "aalon$e",
+        title: "affair luv.mp3 ",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/FPO91hbD1gXetXEjOgnw66SmSEUaFb2c",
+      url: "https://audio.jukehost.co.uk/EoSvkZ96hipIMYkTXdhhJILjcsyenalk",
     },
     {
       metaData: {
-        artist: "OSYRIS ISRAEL ##CORAZONN",
-        title: "CORAZONNN W MKYFM.mp3",
+        artist: "datfootdive",
+        title: "死なない (EXTENDED).mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/FPO91hbD1gXetXEjOgnw66SmSEUaFb2c",
+      url: "https://audio.jukehost.co.uk/hzvDGfCMzpxB9sTnVLdFct5p4bjx5HfA",
     },
     {
       metaData: {
-        artist: "soundcloud wont tell me",
-        title: "dc course.mp3",
+        artist: "Datfootdive - ",
+        title: "Yours.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/ylMYTDCr5BjpKHsRaE3HwkCM4BQikgh3",
+      url: "https://audio.jukehost.co.uk/MiyECnUALLtjZdEj1g5twJkBVcGn0el4",
     },
     {
       metaData: {
-        artist: "xra",
-        title: "DISCONNECTED.mp3",
+        artist: "datfootdive",
+        title: "Those women longed for the touch of others' lips, and thus invited their kisses.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/I9NKqFudWpguHHQSL5wUKcZJKmOIhswU",
+      url: "https://audio.jukehost.co.uk/kDuG8GpsGPWY3ppRiNKHfAQkpRPKc8pc",
     },
     {
       metaData: {
-        artist: "99 Cent Dreams",
-        title: "edas.exe.mp3",
+        artist: "datfootdive",
+        title: "The End Of Tears.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/m7kqPUbahzaSLTVJfiZi9o4ltkq7uTq3",
+      url: "https://audio.jukehost.co.uk/4vzK7S7Ji2bX6HLseOFZBMLZZtBfoaMP",
     },
     {
       metaData: {
-        artist: "LIMP PUMPO",
-        title: "EYBG.mp3",
+        artist: "datfootdive",
+        title: "Semper Fidelis.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/3oWftq4dCQRVK4lqT11fXCDram3S8z1U",
+      url: "https://audio.jukehost.co.uk/iuj7ssODwzwYVwNbqFLScJhlfayw0BYP",
     },
     {
       metaData: {
-        artist: "black balloons",
-        title: "FINAL FANTASY.mp3",
+        artist: "datfootdive",
+        title: "Innocence - Maya #3.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/GfZ0bNTNjElkdvJRbw7eGAZuhHK0Zwxj",
+      url: "https://audio.jukehost.co.uk/6dtkNhVxIvZyhIAuqpSNrkFUB9kRKoZv",
     },
     {
       metaData: {
-        artist: "JAK3",
-        title: "finger on the trigger.mp3",
+        artist: "datfootdive",
+        title: "I never needed you.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/QBhnxw5SHpfTMc1OJLEtE3HIsG68WG16",
+      url: "https://audio.jukehost.co.uk/nxuV8mfonAe0nc01K6MocssJel9xy4EB",
     },
     {
       metaData: {
-        artist: "3LLL",
-        title: "GalaxyRepeater®.mp3",
+        artist: "datfootdive",
+        title: "Don't Be..mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/F9dXqETuv9BMdTxJj3JPxzRECsbgGz40",
+      url: "https://audio.jukehost.co.uk/lwR5aAKXGjanrNJ7lfNHFjUIKj0p1Gee",
     },
     {
       metaData: {
-        artist: "Intense ",
-        title: "Only You Peshay Studio Set 1996 _ breakdancing cat meme theme.mp3",
+        artist: "datfootdive",
+        title: "0%.mp3 ",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/fynE27FsD1oeFFTPXu3Eyh5Z7w3QP0Za",
+      url: "https://audio.jukehost.co.uk/COdlwQxQztWOQHjxnzozJa9bDcSyYXGl",
     },
     {
       metaData: {
-        artist: "Intense ",
-        title: "Only You Peshay Studio Set 1996 _ breakdancing cat meme theme.mp3",
+        artist: "CRY",
+        title: "TAPE4 OUT NOW.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/fynE27FsD1oeFFTPXu3Eyh5Z7w3QP0Za",
+      url: "https://audio.jukehost.co.uk/Fkrxyhl8Yn25etvx7F9tAlBOOjkluZyo",
     },
     {
       metaData: {
-        artist: "dazegxd",
-        title: "janet jackson - would you mind (dazegxd jungle edit).mp3",
+        artist: "COSMIC CYCLER - ",
+        title: "A4.PRIVATE JOY(edited by immelmann 🌟).mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/uCudGw8GMT5GnhHY049NMfMCSAcHx24t",
+      url: "https://audio.jukehost.co.uk/8X7yqwRd2e95FbaAf2fKFKYwtk58bbgy",
     },
     {
       metaData: {
-        artist: "dth95k - ",
-        title: "usr0gundam95.mp3",
+        artist: "Datfootdive",
+        title: "I Am Taking Care of You.mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/pxlcI9oadBkocUsJ1cT1oSbzFqmFXfy7",
+      url: "https://audio.jukehost.co.uk/Pujee2W0xjTxBdyPRfAEtF1y8Rb8iAtx",
     },
+    {
+      metaData: {
+        artist: "???",
+        title: "EAST.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/RAVhyiXu5utSowAZlL9oY6fFmrAJLyPF",
+    },
+    {
+      metaData: {
+        artist: "Allstate Farm",
+        title: "Internet Moms.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/TKyQKGxmQJ5LbJNL8ba3VKZ3cH4yOuJD",
+    },
+    {
+      metaData: {
+        artist: "???",
+        title: "king.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/EwPEwWIFwUMuhyw4tLBNUIFQCLJCMIlG",
+    },
+    {
+      metaData: {
+        artist: "datfootdive",
+        title: "Love is Destructive.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/aHSfPDkDPiMJtdDtZ1aCYcdKUfTTAyRZ",
+    },
+    {
+      metaData: {
+        artist: "datfootdive",
+        title: "Love is Destructive.mp3",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/aHSfPDkDPiMJtdDtZ1aCYcdKUfTTAyRZ",
+    },
+   
+    
+   
+    
   ],initialSkin: {
     // NOTE: Your skin file must be served from the same domain as your HTML
     // file, or served with permissive CORS HTTP headers:
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     // Can be downloaded from https://github.com/captbaritone/webamp/raw/master/skins/TopazAmp1-2.wsz
-    url: ps2skin
+    url: HaloSkin
   }
  
 };
