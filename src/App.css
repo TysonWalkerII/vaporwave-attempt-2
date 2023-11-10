@@ -594,12 +594,34 @@ z-index: 100;
   background-image: url("https://i.pinimg.com/564x/22/04/72/2204725ec0bd13c61131bc099467b04c.jpg");
   animation: otheranim  5s linear infinite;
 }
+@keyframes face1 {
+  0%   { transform: translate3d(0%, 0px, 0px)}
+  100% {transform: translate3d(-40%, 0px, 1000px)}
+}
+@keyframes face2 {
+  0% {transform: translate3d(-40%, 0px, 1000px)}
+  100%   { transform: translate3d(0%, 0px, 0px)}
+
+}
 .memes{
 
   overflow-y: hidden;
   overflow-x: hidden;
 }
 
+.faces1{
+  height:400px;
+  width:300em;
+  animation: face1  10s linear infinite;
+  background-image:url("https://68.media.tumblr.com/64b817bb45612fdcc862581721a2cc33/tumblr_o5fadvXoGm1uph0hwo1_500.gif")
+}
+
+.faces2{
+  height:400px;
+  width:300em;
+  animation: face2  10s linear infinite;
+  background-image:url("https://68.media.tumblr.com/64b817bb45612fdcc862581721a2cc33/tumblr_o5fadvXoGm1uph0hwo1_500.gif")
+}
 
 :root {
   --card-height: 300px;
@@ -756,3 +778,16 @@ z-index: 100;
   /* width:200px; */
 }
 
+
+.dap{
+  position: fixed;
+  top:10%;
+  left:50%  ;
+  width:fit-content
+}
+.luvu{
+  background-color: red;
+}
+.hilarious{
+
+}

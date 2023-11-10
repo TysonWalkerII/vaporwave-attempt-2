@@ -72,7 +72,7 @@ function Vids(prop){
     </div>
   </div>
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/eeSH43xcTr8?si=agwcwP9-HNwpO2PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   <div class="status-bar ">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sBiEqC8iduY?si=Myd47jDy8HQQa1IS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   <div class="status-bar ">
     
 
           <p class="status-bar-field">Press F1 for help</p>

@@ -1,7 +1,7 @@
 import React from "react";
 import Pomodoro from "../Pomodoro";
 
-function Form() {
+function Form(prop) {
   let text = `YOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHT
   YOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHT
   YOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHTYOU THOUGHT
@@ -2336,13 +2336,13 @@ function Form() {
   
   `
 
-  const onClick = () => {
+  const troll = () => {
     document.getElementById("show").innerHTML = text;
     document.getElementById("show2").innerHTML = text2;
     document.getElementById("show3").innerHTML = text3
   };
 
-  return <button onClick={onClick}>Will I ever find love????</button>;
+  return <button onClick={() => prop.toggleShowProp (!prop.showProp)}>Will I ever find love????</button>;
 }
 
 export default Form;
