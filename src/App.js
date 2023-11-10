@@ -307,15 +307,13 @@ const config = {
     
     
     
-  ],availableSkins: [
-    { url: internetArchiveSkin, name: "Internet Archvie" }
   ],initialSkin: {
     // NOTE: Your skin file must be served from the same domain as your HTML
     // file, or served with permissive CORS HTTP headers:
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     // Can be downloaded from https://github.com/captbaritone/webamp/raw/master/skins/TopazAmp1-2.wsz
     url: internetArchiveSkin
-  },
+  }
  
 };
 
