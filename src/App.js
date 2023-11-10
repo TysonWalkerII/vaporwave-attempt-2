@@ -14,8 +14,9 @@ import Card from "./Components/Card";
 import ChatBox from "./Components/ChatBox";
 import { Link, Router, Routes, Route } from "react-router-dom";
 import { type } from "@testing-library/user-event/dist/type";
-// const { useState, useEffect } = React;
+import internetArchiveSkin from "./45.wsz";
 
+// const { useState, useEffect } = React;
 const { useState, useEffect } = React;
 
 
@@ -301,12 +302,20 @@ const config = {
         title: "tell tenkay hire me(xion orion x gemcalibur).mp3",
       },
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://audio.jukehost.co.uk/ms9NfYnrWLzmV6LrdCkKi1reEUsDcz4h",
+      url: "https://drive.google.com/file/d/14s05adeNyHSJcZbwL-lOKm7tXmY4ZtOp/view?usp=share_link",
     },
-
     
     
-  ]
+    
+  ],availableSkins: [
+    { url: internetArchiveSkin, name: "Internet Archvie" }
+  ],initialSkin: {
+    // NOTE: Your skin file must be served from the same domain as your HTML
+    // file, or served with permissive CORS HTTP headers:
+    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+    // Can be downloaded from https://github.com/captbaritone/webamp/raw/master/skins/TopazAmp1-2.wsz
+    url: internetArchiveSkin
+  },
  
 };
 
