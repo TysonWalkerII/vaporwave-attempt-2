@@ -193,6 +193,14 @@ const config = {
       // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
       url: "https://audio.jukehost.co.uk/aHSfPDkDPiMJtdDtZ1aCYcdKUfTTAyRZ",
     },
+    {
+      metaData: {
+        artist: "t e l e p a t h テレパシー能力者",
+        title: "Ａｎｔａｒａ",
+      },
+      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
+      url: "https://audio.jukehost.co.uk/KC1oTVffpJqQ07G493Isur1wdK9HijNF",
+    },
    
     
    
