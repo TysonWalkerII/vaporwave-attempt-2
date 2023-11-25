@@ -337,6 +337,12 @@ const config = {
         <img class="ico" src="doom-ico1.gif"></img>
         <p class="ico-text">DOOM</p>
       </div>
+      <div class="ico-div">
+      <a href="/swag" >
+        <img class="ico" src="doom-ico1.gif"></img>
+        <p class="ico-text">I don't know yet</p>
+        </a>
+      </div>
       <div class="ico-div" onClick = {() => toggleShowRain (!showRain)}>
         <img class="ico" src="https://media.tenor.com/z4Q0LwGOU30AAAAi/azeroy-yabujin.gif"  ></img>
         <p class="ico-text">Calming Rain</p>

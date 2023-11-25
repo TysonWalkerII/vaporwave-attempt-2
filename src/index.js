@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Card from "./Components/Card";
+import Swag from "./Components/Swag"
 
 
 import {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <Card/>,
+  },
+  {
+    path: "/swag",
+    element: <Swag/>,
   },
 ]);
 

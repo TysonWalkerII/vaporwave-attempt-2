@@ -1,0 +1,106 @@
+
+
+.views-and-stuff{
+    display:flex;
+    justify-content: left;
+  }
+  
+  .sky{
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  #box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+  
+  
+
+  
+    margin-left: 90px;
+  }
+  #box2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://i.pinimg.com/originals/fb/ac/44/fbac44433b4cceffe92cfdce250509db.gif");
+    margin-left: 1000px;
+  }
+    
+  
+   
+   .textthing{
+    position: fixed;
+    width:163em;
+    transform: rotate(90deg);
+    left:-1200px;
+    animation: slidehehe 5s infinite;
+    font-size: 16px;
+  }
+  
+  
+   @keyframes slidehehe {
+    0%   {
+  
+       top: 0px;}
+    100%  {
+   
+      
+      top: 347px;}
+  }
+  
+  
+  
+  
+  .candy{
+    position: absolute;
+    width:300px;  
+  }
+  
+  .dialogue{
+    position:absolute;
+    width:300px;
+    margin-left: 400px;
+  }
+  
+  .person{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    width:400px;
+  
+  }
+  
+  
+  
+  .vertical-text{
+    position:fixed;
+    top:10px;
+    left:-40px;
+    writing-mode: vertical-lr;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  
+
+  .home-btn{
+    top:600px;
+    left:300px;
+    height:400px;
+    width:600px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+  }
