@@ -17,7 +17,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 960px;
     height: 100vh;
     background: white;
   
@@ -30,7 +30,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 999px;
     height: 100vh;
     background-image:url("https://i.pinimg.com/originals/fb/ac/44/fbac44433b4cceffe92cfdce250509db.gif");
     margin-left: 1000px;
