@@ -291,6 +291,12 @@ const config = {
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     // Can be downloaded from https://github.com/captbaritone/webamp/raw/master/skins/TopazAmp1-2.wsz
     url: internetArchiveSkin
-  }
+  },
+  availableSkins: [
+    { url: internetArchiveSkin, name: "Doom" },
+    { url: DevilMayCry, name: "Dmc" },
+    { url: zombie, name: "RE" },
+    { url: RE, name: "zombie" }
+  ]
  
 };

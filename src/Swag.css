@@ -104,3 +104,19 @@
    
 
   }
+
+  /* .angle{
+    position:absolute;
+    height:500px;
+    top:900px;
+    left:900px;
+
+  } */
+
+  .angle{
+    position:absolute;
+    height:100px;
+    top:10px;
+    left:-40px;
+
+  }

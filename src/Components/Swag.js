@@ -17,6 +17,7 @@ function Swag() {
     <div class="person">
     <img class="candy" src="https://i.imgur.com/YyOXq9X.png"></img>
     <img class="dialogue" src={boxthing}></img>
+    <img class="angle" src="angle.png"></img>
     </div>
     <p class="vertical-text">起き攻め</p>
 
