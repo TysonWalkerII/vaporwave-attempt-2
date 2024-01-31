@@ -1,3 +1,9 @@
+
+<img width="1831" alt="Screenshot 2024-01-31 at 2 19 52 PM" src="https://github.com/TysonWalkerII/vaporwave-attempt-2/assets/90113324/83f01533-ca65-4ce9-a301-f944921cb46d">
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
